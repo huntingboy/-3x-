@@ -2,7 +2,7 @@
 <h2>准备</h2>
 1.手机关机，按住音量下键不松开，数据线接上手机，然后会进入fastboot模式。<br>
 2.华为和三星手机需要解锁操作，解锁到官网。不需要解锁的手机可跳过此步骤。<br>
-3.准备SD卡，将要下载的ROM包导入。若是强刷，则需要解压，会有/dload/UPDATE.ZIP文件。
+3.准备SD卡，将要下载的ROM包导入。若是强刷，则需要解压，会有/dload/UPDATE.ZIP文件。<br>
 4.若是卡刷，还需要提取update.app里面的img：a)split_update.pl-master解压. b)chmod +x splitupdate.  c)./splitupdate update.app
 <h2>卡刷</h2>
 sudo fastboot oem unlock **************　　　　 //解锁<br>

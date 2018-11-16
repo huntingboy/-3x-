@@ -8,7 +8,7 @@
 sudo fastboot oem unlock **************　　　　 //解锁<br>
 sudo fastboot oem get-bootinfo 　　　　//判断解锁是否成功，成功则显示unlocked<br>
 sudo fastboot flash recovery recovery.img　　　　 //写入recovery.img（会擦除官方recovery）<br>
-sudo fastboot reboot 　　　　 //重启手机<br>
+sudo fastboot reboot 　[bootloader/recovery]　　　 //重启手机<br>
 按住音量上+电源键，进入rec模式，找到ROM包刷入。（若是第三方rec,可能按住音量上下键即可进入。)<br>
 强刷：音量上下键+电源键
 <h2>线刷</h2>
